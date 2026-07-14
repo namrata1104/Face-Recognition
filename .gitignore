@@ -1,0 +1,23 @@
+# credentials
+kaggle.json
+**/kaggle.json
+
+# datasets
+data/
+UTKFace/
+FairFace/
+*.zip
+
+# trained model + splits
+*.keras
+*.h5
+train_df.csv
+val_df.csv
+test_df.csv
+
+# python & jupyter noise
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage
